@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Part 1</title>
+</head>
+<body>
+    <h1>Get All Manufacturer Name</h1>
+    <a href='/api/v1/' target="_blank"><button>Get All Manufacturer</button></a>
+    <h1>Get Model By Manufacturer Name</h1>
+    <form action="/api/v1/make_name" method="GET" target="_blank">
+        <input type="text" name="manufacturer" placeholder="Manufacturer Name"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    <h1>Get Vehicle Information By VIN</h1>
+    <form action="/api/v1/VIN/" method="GET" target="_blank">
+        <input type="text" name="VIN" placeholder="VIN Number"/>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
